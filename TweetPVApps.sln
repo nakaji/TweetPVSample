@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetPV", "TweetPV\TweetPV.csproj", "{17AFE11D-2AA9-41D9-94F5-92CBC6E4B2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetPVTest", "TweetPVTest\TweetPVTest.csproj", "{F527A1AE-36A6-43BA-8281-B47BCAC2E9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{A67F2528-FEBE-48E1-88B8-0763CDDF6623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17AFE11D-2AA9-41D9-94F5-92CBC6E4B2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AFE11D-2AA9-41D9-94F5-92CBC6E4B2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AFE11D-2AA9-41D9-94F5-92CBC6E4B2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AFE11D-2AA9-41D9-94F5-92CBC6E4B2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F527A1AE-36A6-43BA-8281-B47BCAC2E9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F527A1AE-36A6-43BA-8281-B47BCAC2E9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F527A1AE-36A6-43BA-8281-B47BCAC2E9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F527A1AE-36A6-43BA-8281-B47BCAC2E9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67F2528-FEBE-48E1-88B8-0763CDDF6623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67F2528-FEBE-48E1-88B8-0763CDDF6623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67F2528-FEBE-48E1-88B8-0763CDDF6623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67F2528-FEBE-48E1-88B8-0763CDDF6623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
