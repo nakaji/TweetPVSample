@@ -10,7 +10,7 @@ namespace TweetPV
 {
     public static class TwitterHelper
     {
-        public static async Task<Status> UpdateStatusAsync(string message)
+        public static async Task UpdateStatusAsync(string message)
         {
             var consumerKey = ConfigurationManager.AppSettings["consumerKey"];
             var consumerSecret = ConfigurationManager.AppSettings["consumerSecret"];
@@ -19,7 +19,7 @@ namespace TweetPV
 
             var tokens = Tokens.Create(consumerKey, consumerSecret, accessToken, accessTokenSecret);
 
-            return await tokens.Statuses.UpdateAsync(status => message);
+            await tokens.Statuses.UpdateAsync(status => message);
         }
     }
 }
